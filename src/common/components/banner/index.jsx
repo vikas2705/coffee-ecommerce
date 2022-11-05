@@ -6,8 +6,17 @@ import "./banner.css";
 const Banner = () => {
     return (
         <div className='app-banner'>
-            <img src={mobileLarge} alt='moble icon' />
-            <img src={mobileBottom} alt='moble icon' />
+            <div className='padding-100'>
+                <img
+                    src={mobileLarge}
+                    alt='moble icon'
+                    className='relative top70'
+                />
+                <img src={mobileBottom} alt='moble icon' />
+                <div className='banner-text'>
+                    India’s Leading Mobile Comparison Portal
+                </div>
+            </div>
         </div>
     );
 };
