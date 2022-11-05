@@ -1,0 +1,40 @@
+.main-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.left-part, .right-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.input-group input.custom-width{
+    width: 400px;
+}
+
+#basic-addon2{
+    background: #FF2C91;
+    color: white;
+}
+
+
+.header-text{
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    color: #1D252D;
+    font-weight: bold;
+}
+
+.marginLeft20{
+    margin-left: 20px;
+}
