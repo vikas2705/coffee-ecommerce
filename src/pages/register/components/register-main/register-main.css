@@ -1,11 +1,11 @@
-.login-main{
+.register-main {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.main-heading{
+.main-heading {
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 800;
@@ -15,22 +15,22 @@
     margin-bottom: 40px;
 }
 
-.text-pink{
+.text-pink {
     font-family: 'Gilroy-Medium';
-    color: #FF2C91; 
+    color: #FF2C91;
     text-decoration: none;
 }
 
-.text-right{
+.text-right {
     text-align: right;
 }
 
-.link-small{
+.link-small {
     font-size: 14px;
     line-height: 16px;
 }
 
-.heading-sub{
+.heading-sub {
     font-size: 18px;
     line-height: 19px;
     text-align: center;
@@ -38,7 +38,7 @@
     font-weight: 600;
 }
 
-.main-btn{
+.main-btn {
     width: 100%;
     background: #FF2C91;
     border-radius: 6px;

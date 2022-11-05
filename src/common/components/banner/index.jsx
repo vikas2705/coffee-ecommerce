@@ -6,7 +6,7 @@ import "./banner.css";
 const Banner = () => {
     return (
         <div className='app-banner'>
-            <div className='padding-100'>
+            <div className='padding-50'>
                 <img
                     src={mobileLarge}
                     alt='moble icon'
