@@ -1,5 +1,7 @@
 import React from "react";
 import "./login-main.css";
+import FloatingLabel from "react-bootstrap/FloatingLabel";
+import Form from "react-bootstrap/Form";
 
 const LoginMain = () => {
     return (
@@ -7,23 +9,21 @@ const LoginMain = () => {
             <div className='login-container'>
                 <h1 className='main-heading'>Login to Continue 👋</h1>
 
-                <div className='form-container my-4'>
-                    <input
-                        type='email'
-                        placeholder='Email Address'
-                        required
-                        className='form-control'
-                    />
-                </div>
+                <FloatingLabel
+                    controlId='floatingInput'
+                    label='Email Address'
+                    className='my-4'
+                >
+                    <Form.Control type='email' placeholder='name@example.com' />
+                </FloatingLabel>
 
-                <div className='form-container  my-4'>
-                    <input
-                        type='password'
-                        placeholder='Password'
-                        required
-                        className='form-control'
-                    />
-                </div>
+                <FloatingLabel
+                    controlId='floatingPassword'
+                    label='Password'
+                    className='my-4'
+                >
+                    <Form.Control type='password' placeholder='*******' />
+                </FloatingLabel>
 
                 <div className='my-4 text-right'>
                     <a href='#/' className='text-pink link-small'>

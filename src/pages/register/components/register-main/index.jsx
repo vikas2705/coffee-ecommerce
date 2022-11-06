@@ -1,5 +1,7 @@
 import React from "react";
 import "./register-main.css";
+import FloatingLabel from "react-bootstrap/FloatingLabel";
+import Form from "react-bootstrap/Form";
 
 const RegisterMain = () => {
     return (
@@ -7,59 +9,56 @@ const RegisterMain = () => {
             <div className='register-container'>
                 <h1 className='main-heading'>Create Account 😍</h1>
 
-                <div className='form-container my-4'>
-                    <input
+                <FloatingLabel
+                    controlId='floatingFullName'
+                    label='Full Name'
+                    className='my-4'
+                >
+                    <Form.Control
                         type='text'
-                        placeholder='Full Name'
-                        required
-                        className='form-control'
+                        placeholder='Firstname Lastname'
                     />
-                </div>
+                </FloatingLabel>
 
-                <div className='form-container my-4'>
-                    <input
-                        type='number'
-                        placeholder='Mobile Number'
-                        required
-                        className='form-control'
-                    />
-                </div>
+                <FloatingLabel
+                    controlId='floatingMobile'
+                    label='Mobile Number'
+                    className='my-4'
+                >
+                    <Form.Control type='number' placeholder='0000000000' />
+                </FloatingLabel>
 
-                <div className='form-container my-4'>
-                    <input
-                        type='email'
-                        placeholder='Email Address'
-                        required
-                        className='form-control'
-                    />
-                </div>
+                <FloatingLabel
+                    controlId='floatingInput'
+                    label='Email Address'
+                    className='my-4'
+                >
+                    <Form.Control type='email' placeholder='name@example.com' />
+                </FloatingLabel>
 
-                <div className='form-container my-4'>
-                    <input
-                        type='date'
-                        placeholder='Date of birth (DD/MM/YYYY)'
-                        required
-                        className='form-control'
-                    />
-                </div>
+                <FloatingLabel
+                    controlId='floatingDateOfBirth'
+                    label='Date of birth (DD/MM/YYYY)'
+                    className='my-4'
+                >
+                    <Form.Control type='date' placeholder='MM/DD/YYYY' />
+                </FloatingLabel>
 
-                <div className='form-container  my-4'>
-                    <input
-                        type='password'
-                        placeholder='Password'
-                        required
-                        className='form-control'
-                    />
-                </div>
+                <FloatingLabel
+                    controlId='floatingPassword'
+                    label='Password'
+                    className='my-4'
+                >
+                    <Form.Control type='password' placeholder='*******' />
+                </FloatingLabel>
 
-                <div className='form-container  my-4'>
-                    <input
-                        type='password'
-                        placeholder='Confirm Password'
-                        required
-                        className='form-control'
-                    />
-                </div>
+                <FloatingLabel
+                    controlId='floatingConfirmPassword'
+                    label='Confirm Password'
+                    className='my-4'
+                >
+                    <Form.Control type='password' placeholder='*******' />
+                </FloatingLabel>
 
                 <div className='form-container my-4'>
                     <button className='main-btn p-2'>Create Account</button>

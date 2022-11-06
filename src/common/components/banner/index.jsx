@@ -7,7 +7,7 @@ import Logo from "../logo";
 const Banner = () => {
     return (
         <div className='app-banner'>
-            <div className='padding-50'>
+            <div className='padding-40'>
                 <Logo lightMode />
                 <img
                     src={mobileLarge}
