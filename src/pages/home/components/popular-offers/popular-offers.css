@@ -1,0 +1,52 @@
+.popular-offers-main{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.04);
+    border-radius: 12px;
+    padding: 30px 50px;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+.section-heading{
+    font-size: 20px;
+    line-height: 23px;
+    color: #1E2228;
+    font-weight: bold;
+}
+
+.tabs{
+    margin-top: 10px;
+}
+
+/* overwriting the styling for bootstrap tabs*/
+.nav-tabs .nav-item .nav-link{
+    color: #939599;
+    margin-bottom: 0px;
+    border: none;
+    border-color: transparent;
+    padding: 8px 0px;
+    margin: 0px 16px 0px 0px;
+}
+
+.nav-tabs .nav-item .nav-link:hover,
+.nav-tabs .nav-item .nav-link.active, 
+.nav-tabs .nav-item .nav-link.active:hover, 
+.nav-tabs .nav-item .nav-link:active {
+    color: #1E2228;
+    font-weight: bold;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: transparent;
+    border-bottom: 4px solid #03ACA7;
+    margin-bottom: 0px;
+}
+
+.nav-tabs .nav-item .nav-link:hover{
+    border-bottom:none;
+    color: #939599;
+    font-weight: normal;
+}
