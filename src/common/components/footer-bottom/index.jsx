@@ -1,12 +1,12 @@
 import React from "react";
 import "./footer-bottom.css";
 import { footerLinks } from "./constants/footerOptions";
-import PaymentIcons from "../../assets/images/payment-icons.svg";
-import AppDownload from "../../assets/images/app-download.svg";
-import Facebook from "../../assets/images/facebook.svg";
-import Twitter from "../../assets/images/twitter.svg";
-import Youtube from "../../assets/images/youtube.svg";
-import Instagram from "../../assets/images/instagram.svg";
+import PaymentIcons from "../../assets/icons/payment-icons.svg";
+import AppDownload from "../../assets/icons/app-download.svg";
+import Facebook from "../../assets/icons/facebook.svg";
+import Twitter from "../../assets/icons/twitter.svg";
+import Youtube from "../../assets/icons/youtube.svg";
+import Instagram from "../../assets/icons/instagram.svg";
 
 const FooterBottom = () => {
     return (

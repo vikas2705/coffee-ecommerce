@@ -3,7 +3,7 @@ import "./navbar-main.css";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import offers from "../../assets/images/offers.svg";
+import offers from "../../assets/icons/offers.svg";
 
 const NavbarMain = () => {
     return (

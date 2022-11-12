@@ -1,8 +1,8 @@
 import React from "react";
 import Logo from "../logo";
 import "./header.css";
-import cartIcon from "../../assets/images/cart.svg";
-import userIcon from "../../assets/images/user.svg";
+import cartIcon from "../../assets/icons/cart.svg";
+import userIcon from "../../assets/icons/user.svg";
 import { useNavigate } from "react-router-dom";
 
 const Header = () => {

@@ -1,7 +1,7 @@
-import Wallet from "../../../assets/images/wallet.svg";
-import SecurePay from "../../../assets/images/secure-pay.svg";
-import Contact from "../../../assets/images/contact.svg";
-import Calculator from "../../../assets/images/calculator.svg";
+import Wallet from "../../../assets/icons/wallet.svg";
+import SecurePay from "../../../assets/icons/secure-pay.svg";
+import Contact from "../../../assets/icons/contact.svg";
+import Calculator from "../../../assets/icons/calculator.svg";
 
 export const features = [
     {
