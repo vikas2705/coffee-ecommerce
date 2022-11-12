@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../../common/components/footer";
 import Header from "../../common/components/header";
 import NavbarMain from "../../common/components/navbar-main";
 import ImageSlider from "./components/image-slider";
@@ -16,9 +17,7 @@ const Home = () => {
                 <PopularOffers />
             </div>
 
-            <section className='common-section'>Payments</section>
-
-            <section className='common-section'>Footer</section>
+            <Footer />
         </div>
     );
 };
