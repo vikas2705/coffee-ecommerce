@@ -1,5 +1,10 @@
 import React, { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
+import ImgSlider1 from "../../../../common/assets/images/img-slider-1.jpeg";
+import ImgSlider2 from "../../../../common/assets/images/img-slider-2.webp";
+import ImgSlider3 from "../../../../common/assets/images/img-slider-3.webp";
+import ImgSlider4 from "../../../../common/assets/images/img-slider-4.webp";
+import ImgSlider5 from "../../../../common/assets/images/img-slider-5.webp";
 
 const ImageSlider = () => {
     const [index, setIndex] = useState(0);
@@ -16,35 +21,35 @@ const ImageSlider = () => {
             <Carousel.Item>
                 <img
                     className='d-block w-100'
-                    src='https://rukminim1.flixcart.com/flap/3376/560/image/94bb668d24cc89b7.jpg?q=50'
+                    src={ImgSlider1}
                     alt='First slide'
                 />
             </Carousel.Item>
             <Carousel.Item>
                 <img
                     className='d-block w-100'
-                    src='https://rukminim1.flixcart.com/flap/3376/560/image/fbb5e74e1d2ace58.jpg?q=50'
+                    src={ImgSlider2}
                     alt='Second slide'
                 />
             </Carousel.Item>
             <Carousel.Item>
                 <img
                     className='d-block w-100'
-                    src='https://rukminim1.flixcart.com/fk-p-flap/3376/560/image/c4945839ebd7115e.jpg?q=50'
+                    src={ImgSlider3}
                     alt='Third slide'
                 />
             </Carousel.Item>
             <Carousel.Item>
                 <img
                     className='d-block w-100'
-                    src='https://rukminim1.flixcart.com/fk-p-flap/3376/560/image/bee297d0ace9332f.jpg?q=50'
+                    src={ImgSlider4}
                     alt='Fourth slide'
                 />
             </Carousel.Item>
             <Carousel.Item>
                 <img
                     className='d-block w-100'
-                    src='https://rukminim1.flixcart.com/flap/3376/560/image/88928cba4ae417a5.jpg?q=50'
+                    src={ImgSlider5}
                     alt='Fifth slide'
                 />
             </Carousel.Item>
