@@ -14,7 +14,7 @@ const PhoneProduct = props => {
     } = productData;
 
     return (
-        <div className='phone-product col'>
+        <div className='phone-product'>
             <div className='phone-image'>
                 <img src={imageFile} alt='phone' />
             </div>

@@ -8,7 +8,11 @@ const PopularOffersPhones = () => {
         <div className='popular-phones-main'>
             <div className='row'>
                 {SAMPLE_PHONES.map(phone => {
-                    return <PhoneProduct productData={phone} key={phone.id} />;
+                    return (
+                        <div className='col'>
+                            <PhoneProduct productData={phone} key={phone.id} />
+                        </div>
+                    );
                 })}
             </div>
         </div>

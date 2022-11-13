@@ -13,7 +13,7 @@ const FooterBottom = () => {
         <section className='footer-bottom-main'>
             <div className='container'>
                 <div className='row'>
-                    <div className='left-main col-md-9'>
+                    <div className='col-md-9'>
                         <div className='left-top'>
                             <div className='row'>
                                 {footerLinks.map(footerLink => {
@@ -42,7 +42,7 @@ const FooterBottom = () => {
                             <img src={PaymentIcons} alt='all payment icons' />
                         </div>
                     </div>
-                    <div className='right-main col-md-3'>
+                    <div className='col-md-3'>
                         <div className='right-top'>
                             <h3 className='footer-right-subheading'>
                                 Download our amazing app

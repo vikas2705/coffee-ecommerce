@@ -3,14 +3,25 @@ import "./popular-offers.css";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 import PopularOffersPhones from "../popular-offers-phones";
+import { useNavigate } from "react-router-dom";
 
 const PopularOffers = () => {
+    const navigate = useNavigate();
+    const goToProductList = () => {
+        navigate("/products");
+    };
+
     return (
         <div className='container popular-offers-main'>
             <div className='top-part'>
                 <div className='heading'>
                     <h3 className='section-heading'>Popular Mobile Offers</h3>
-                    <button className='sub-btn py-1 px-2 mx-3'>View All</button>
+                    <button
+                        className='sub-btn py-1 px-2 mx-3'
+                        onClick={goToProductList}
+                    >
+                        View All
+                    </button>
                 </div>
                 <div className='tabs'>
                     <Tabs
