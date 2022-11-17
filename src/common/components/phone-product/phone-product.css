@@ -1,6 +1,7 @@
 .phone-product {
     text-align: left;
     margin: 20px 0px;
+    cursor: pointer;
 }
 
 .phone-offer {

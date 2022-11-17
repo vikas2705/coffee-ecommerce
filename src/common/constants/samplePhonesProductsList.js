@@ -62,7 +62,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
         discount: "16% Off",
         offer: "12% cashback",
         emi: "EMI starts @ ₹1356",
-        id: "1213",
+        id: "121333",
     },
     {
         imageFile: Phone2,
@@ -72,7 +72,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
         discount: "7% Off",
         offer: "5% cashback",
         emi: "EMI starts @ ₹1356",
-        id: "32434",
+        id: "3243434",
     },
     {
         imageFile: Phone3,
@@ -92,7 +92,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
         discount: "7% Off",
         offer: "4% cashback",
         emi: "EMI starts @ ₹1356",
-        id: "331213",
+        id: "323231213",
     },
     {
         imageFile: Phone1,
@@ -102,7 +102,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
         discount: "16% Off",
         offer: "12% cashback",
         emi: "EMI starts @ ₹1356",
-        id: "4554",
+        id: "45523234",
     },
     {
         imageFile: Phone1,
@@ -112,7 +112,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
         discount: "16% Off",
         offer: "12% cashback",
         emi: "EMI starts @ ₹1356",
-        id: "1213",
+        id: "12123233",
     },
     {
         imageFile: Phone2,
@@ -122,7 +122,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
         discount: "7% Off",
         offer: "5% cashback",
         emi: "EMI starts @ ₹1356",
-        id: "32434",
+        id: "32432334",
     },
     {
         imageFile: Phone3,
@@ -132,7 +132,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
         discount: "20% Off",
         offer: "4% cashback",
         emi: "EMI starts @ ₹5000",
-        id: "121332343",
+        id: "1213323232343",
     },
     {
         imageFile: Phone4,
@@ -142,7 +142,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
         discount: "7% Off",
         offer: "4% cashback",
         emi: "EMI starts @ ₹1356",
-        id: "331213",
+        id: "3313232213",
     },
     {
         imageFile: Phone1,
@@ -152,7 +152,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
         discount: "16% Off",
         offer: "12% cashback",
         emi: "EMI starts @ ₹1356",
-        id: "4554",
+        id: "45532234",
     },
     {
         imageFile: Phone1,
@@ -162,7 +162,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
         discount: "16% Off",
         offer: "12% cashback",
         emi: "EMI starts @ ₹1356",
-        id: "1213",
+        id: "132122323",
     },
     {
         imageFile: Phone2,
@@ -172,7 +172,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
         discount: "7% Off",
         offer: "5% cashback",
         emi: "EMI starts @ ₹1356",
-        id: "32434",
+        id: "322323434",
     },
     {
         imageFile: Phone3,
@@ -182,7 +182,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
         discount: "20% Off",
         offer: "4% cashback",
         emi: "EMI starts @ ₹5000",
-        id: "121332343",
+        id: "121332332343",
     },
     {
         imageFile: Phone4,
@@ -192,7 +192,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
         discount: "7% Off",
         offer: "4% cashback",
         emi: "EMI starts @ ₹1356",
-        id: "331213",
+        id: "33445451213",
     },
     {
         imageFile: Phone1,
@@ -202,6 +202,6 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
         discount: "16% Off",
         offer: "12% cashback",
         emi: "EMI starts @ ₹1356",
-        id: "4554",
+        id: "456654",
     },
 ];

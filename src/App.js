@@ -7,6 +7,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import Register from "./pages/register";
 import Home from "./pages/home";
 import ProductList from "./pages/product-list";
+import ProductDetail from "./pages/product-detail";
 
 function App() {
     return (
@@ -16,6 +17,10 @@ function App() {
                 <Route path='/login' element={<Login />} />
                 <Route path='/register' element={<Register />} />
                 <Route path='/products' element={<ProductList />} />
+                <Route
+                    path='/products/:productName/:productId'
+                    element={<ProductDetail />}
+                />
             </Routes>
         </div>
     );
