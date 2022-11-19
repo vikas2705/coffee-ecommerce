@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Footer from "../../common/components/footer";
 import Header from "../../common/components/header";
 import NavbarMain from "../../common/components/navbar-main";
@@ -7,8 +7,25 @@ import Breadcrumbs from "./components/breadcrumbs";
 import ProductDetailSection from "./components/product-detail-section";
 import ProductPictures from "./components/product-pictures";
 import "./product-detail.css";
+import { useParams } from "react-router-dom";
+import { SAMPLE_PHONES_PRODUCTS_LIST } from "../../common/constants/samplePhonesProductsList";
 
 const ProductDetail = () => {
+    const params = useParams();
+    const { productId } = params;
+    const [productDetail, setProductDetail] = useState({});
+
+    const getProductDetails = productId => {
+        const matchingProduct = SAMPLE_PHONES_PRODUCTS_LIST.find(phoneData => {
+            return phoneData.id === productId;
+        });
+        setProductDetail(matchingProduct);
+    };
+
+    useEffect(() => {
+        getProductDetails(productId);
+    }, [productId]);
+
     return (
         <div className='product-detail-main'>
             <Header />
@@ -16,7 +33,7 @@ const ProductDetail = () => {
 
             <div className=' body-main'>
                 <div className='container'>
-                    <Breadcrumbs />
+                    <Breadcrumbs productName={productDetail.name} />
 
                     <div className='product-section'>
                         <div className='row'>
@@ -24,7 +41,9 @@ const ProductDetail = () => {
                                 <ProductPictures />
                             </div>
                             <div className='col-md-6'>
-                                <ProductDetailSection />
+                                <ProductDetailSection
+                                    productDetail={productDetail}
+                                />
                             </div>
                             <div className='col-md-1'>
                                 <ShareButton />

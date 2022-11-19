@@ -10,12 +10,17 @@ import ColorPicker from "../color-picker";
 import Form from "react-bootstrap/Form";
 import CartIcon from "../../../../common/assets/icons/cart";
 
-const ProductDetailSection = () => {
+const ProductDetailSection = props => {
+    const { productDetail } = props;
+    const {
+        name = "",
+        originalPrice = "",
+        currentPrice = "",
+        discount = "",
+    } = productDetail;
     return (
         <div className='product-section-main'>
-            <h1 className='product-title'>
-                Samsung Galaxy Note 8 (Orchid Grey, 6GB RAM, 64GB Storage)
-            </h1>
+            <h1 className='product-title'>{name}</h1>
             <div className='key-features section-gap'>
                 <p className='features-heading mb-2'>Key Features</p>
                 <ul>
@@ -68,9 +73,9 @@ const ProductDetailSection = () => {
 
             <div className='prices-and-taxes section-gap'>
                 <div className='top-part d-flex align-items-center justify-space-between'>
-                    <div className='current-price'>₹20,990</div>
-                    <div className='original-price mx-2'>₹23,990</div>
-                    <div className='discount mx-1'>10% off</div>
+                    <div className='current-price'>{currentPrice}</div>
+                    <div className='original-price mx-2'>{originalPrice}</div>
+                    <div className='discount mx-1'>{discount}</div>
                 </div>
                 <div className='bottom-part'>Inclusive of all taxes</div>
             </div>

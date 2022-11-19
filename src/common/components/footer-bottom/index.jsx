@@ -18,14 +18,20 @@ const FooterBottom = () => {
                             <div className='row'>
                                 {footerLinks.map(footerLink => {
                                     return (
-                                        <div className='col-md-3'>
+                                        <div
+                                            className='col-md-3'
+                                            key={footerLink.heading}
+                                        >
                                             <h2 className='footer-list-heading'>
                                                 {footerLink.heading}
                                             </h2>
                                             <ul>
                                                 {footerLink.items.map(item => {
                                                     return (
-                                                        <li className='footer-list-item'>
+                                                        <li
+                                                            className='footer-list-item'
+                                                            key={item}
+                                                        >
                                                             <a href='#/'>
                                                                 {item}
                                                             </a>

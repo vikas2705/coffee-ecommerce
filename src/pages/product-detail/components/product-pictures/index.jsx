@@ -16,6 +16,7 @@ const ProductPictures = () => {
                     {phonesImages.map((phoneImg, index) => {
                         return (
                             <div
+                                key={phoneImg}
                                 className={`product-thumbnail mb-3 ${
                                     selectedThumbnail === index
                                         ? "selected"
