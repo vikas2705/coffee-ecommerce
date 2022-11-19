@@ -40,7 +40,7 @@ const ProductDetail = () => {
                             <div className='col-md-5'>
                                 <ProductPictures />
                             </div>
-                            <div className='col-md-6'>
+                            <div className='col-md-6 paddingLeft30'>
                                 <ProductDetailSection
                                     productDetail={productDetail}
                                 />
