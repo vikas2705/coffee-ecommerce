@@ -2,9 +2,13 @@ import React from "react";
 import "./product-detail-section.css";
 import checkIcon from "../../../../common/assets/icons/check-icon.svg";
 import bankIcon from "../../../../common/assets/icons/bank-icon.svg";
-import offersIcon from "../../../../common/assets/icons/offers.svg";
+import truckIcon from "../../../../common/assets/icons/truck.svg";
+import returnIcon from "../../../../common/assets/icons/return.svg";
+import cancellationIcon from "../../../../common/assets/icons/cancellation.svg";
+import OffersIcon from "../../../../common/assets/icons/offers";
 import ColorPicker from "../color-picker";
 import Form from "react-bootstrap/Form";
+import CartIcon from "../../../../common/assets/icons/cart";
 
 const ProductDetailSection = () => {
     return (
@@ -80,7 +84,7 @@ const ProductDetailSection = () => {
                     </span>
                 </div>
                 <div>
-                    <img src={offersIcon} alt='bank icon' />
+                    <OffersIcon color='black' height='16' width='16' />
                     <span className='mx-3'>
                         Bank Offer 5% Unlimited Cashback on Flipkart Axis Bank
                         Credit Card. T&C
@@ -89,21 +93,33 @@ const ProductDetailSection = () => {
             </div>
 
             <div className='add-to-cart section-gap'>
-                <button className='add-to-card-btn btn'>Add to Cart</button>
+                <button className='add-to-card-btn btn flex align-items-center'>
+                    <CartIcon color='white' />
+                    <span className='mx-3'>Add to Cart</span>
+                </button>
             </div>
 
             <div className='section-gap quick-policies d-flex justify-space-between align-items-center'>
-                <div>
-                    <div>Shipping Fee</div>
-                    <h5>Free</h5>
+                <div className='d-flex align-items-start '>
+                    <img src={truckIcon} alt='truck icon' />
+                    <div className='mx-2'>
+                        <span>Shipping Fee</span>
+                        <div className='policy-value'>FREE</div>
+                    </div>
                 </div>
-                <div>
-                    <div>Return Policy</div>
-                    <h5>30 days</h5>
+                <div className='d-flex align-items-start mx-3'>
+                    <img src={returnIcon} alt='return icon' />
+                    <div className='mx-2'>
+                        <span>Return Policy</span>
+                        <div className='policy-value'>30 DAYS</div>
+                    </div>
                 </div>
-                <div>
-                    <div>Return Policy</div>
-                    <h5>Allowed</h5>
+                <div className='d-flex align-items-start  mx-3'>
+                    <img src={cancellationIcon} alt='cancellation icon' />
+                    <div className='mx-2'>
+                        <span>Cancellation</span>
+                        <div className='policy-value'>ALLOWED</div>
+                    </div>
                 </div>
             </div>
         </div>

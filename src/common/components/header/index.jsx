@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../logo";
 import "./header.css";
-import cartIcon from "../../assets/icons/cart.svg";
+import CartIcon from "../../assets/icons/cart";
 import userIcon from "../../assets/icons/user.svg";
 import { useNavigate } from "react-router-dom";
 
@@ -31,7 +31,7 @@ const Header = () => {
                 </div>
                 <div className='right-part'>
                     <div className='header-icons'>
-                        <img src={cartIcon} alt='cart icon' />
+                        <CartIcon />
                         <span className='header-text mx-2'>Cart</span>
                     </div>
 

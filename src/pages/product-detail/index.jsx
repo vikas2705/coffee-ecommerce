@@ -5,6 +5,7 @@ import NavbarMain from "../../common/components/navbar-main";
 import ShareButton from "../../common/components/share-button";
 import Breadcrumbs from "./components/breadcrumbs";
 import ProductDetailSection from "./components/product-detail-section";
+import ProductPictures from "./components/product-pictures";
 import "./product-detail.css";
 
 const ProductDetail = () => {
@@ -19,14 +20,8 @@ const ProductDetail = () => {
 
                     <div className='product-section'>
                         <div className='row'>
-                            <div
-                                className='col-md-5'
-                                style={{
-                                    backgroundColor: "yellow",
-                                    height: "100%",
-                                }}
-                            >
-                                part 1
+                            <div className='col-md-5'>
+                                <ProductPictures />
                             </div>
                             <div className='col-md-6'>
                                 <ProductDetailSection />
