@@ -3,13 +3,14 @@ import Breadcrumb from "react-bootstrap/Breadcrumb";
 import "./breadCrumbs.css";
 
 const Breadcrumbs = props => {
-    const { productName } = props;
+    const { productDetail = {} } = props;
+    const { name = "", brand = "" } = productDetail;
     return (
         <Breadcrumb>
             <Breadcrumb.Item href='/'>Home</Breadcrumb.Item>
-            <Breadcrumb.Item href='#/'>Samsung</Breadcrumb.Item>
+            <Breadcrumb.Item href='#/'>{brand}</Breadcrumb.Item>
             <Breadcrumb.Item href='#/'>Mobile Phone</Breadcrumb.Item>
-            <Breadcrumb.Item active>{productName}</Breadcrumb.Item>
+            <Breadcrumb.Item active>{name}</Breadcrumb.Item>
         </Breadcrumb>
     );
 };

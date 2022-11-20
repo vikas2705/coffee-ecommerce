@@ -19,6 +19,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
             "Warranty: 4 years on product, 4 years on motor 800 rpm:",
             "Higher the spin speed, faster the drying time",
         ],
+        brand: "Samsung",
     },
     {
         imageFile: Phone2,
@@ -35,6 +36,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
             "Warranty: 4 years on product, 4 years on motor 800 rpm:",
             "Higher the spin speed, faster the drying time",
         ],
+        brand: "Redmi",
     },
     {
         imageFile: Phone3,
@@ -51,6 +53,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
             "Warranty: 4 years on product, 4 years on motor 800 rpm:",
             "Higher the spin speed, faster the drying time",
         ],
+        brand: "Samsung",
     },
     {
         imageFile: Phone4,
@@ -67,6 +70,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
             "Warranty: 4 years on product, 4 years on motor 800 rpm:",
             "Higher the spin speed, faster the drying time",
         ],
+        brand: "Samsung",
     },
     {
         imageFile: Phone1,
@@ -83,6 +87,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
             "Warranty: 4 years on product, 4 years on motor 800 rpm:",
             "Higher the spin speed, faster the drying time",
         ],
+        brand: "Samsung",
     },
     {
         imageFile: Phone1,
@@ -99,6 +104,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
             "Warranty: 4 years on product, 4 years on motor 800 rpm:",
             "Higher the spin speed, faster the drying time",
         ],
+        brand: "Samsung",
     },
     {
         imageFile: Phone2,
@@ -115,6 +121,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
             "Warranty: 4 years on product, 4 years on motor 800 rpm:",
             "Higher the spin speed, faster the drying time",
         ],
+        brand: "Redmi",
     },
     {
         imageFile: Phone3,
@@ -131,6 +138,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
             "Warranty: 4 years on product, 4 years on motor 800 rpm:",
             "Higher the spin speed, faster the drying time",
         ],
+        brand: "Samsung",
     },
     {
         imageFile: Phone4,
@@ -147,6 +155,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
             "Warranty: 4 years on product, 4 years on motor 800 rpm:",
             "Higher the spin speed, faster the drying time",
         ],
+        brand: "Samsung",
     },
     {
         imageFile: Phone1,
@@ -163,6 +172,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
             "Warranty: 4 years on product, 4 years on motor 800 rpm:",
             "Higher the spin speed, faster the drying time",
         ],
+        brand: "Samsung",
     },
     {
         imageFile: Phone1,
@@ -179,6 +189,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
             "Warranty: 4 years on product, 4 years on motor 800 rpm:",
             "Higher the spin speed, faster the drying time",
         ],
+        brand: "Samsung",
     },
     {
         imageFile: Phone2,
@@ -195,6 +206,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
             "Warranty: 4 years on product, 4 years on motor 800 rpm:",
             "Higher the spin speed, faster the drying time",
         ],
+        brand: "Redmi",
     },
     {
         imageFile: Phone3,
@@ -211,6 +223,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
             "Warranty: 4 years on product, 4 years on motor 800 rpm:",
             "Higher the spin speed, faster the drying time",
         ],
+        brand: "Samsung",
     },
     {
         imageFile: Phone4,
@@ -227,6 +240,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
             "Warranty: 4 years on product, 4 years on motor 800 rpm:",
             "Higher the spin speed, faster the drying time",
         ],
+        brand: "Samsung",
     },
     {
         imageFile: Phone1,
@@ -243,6 +257,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
             "Warranty: 4 years on product, 4 years on motor 800 rpm:",
             "Higher the spin speed, faster the drying time",
         ],
+        brand: "Samsung",
     },
     {
         imageFile: Phone1,
@@ -259,6 +274,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
             "Warranty: 4 years on product, 4 years on motor 800 rpm:",
             "Higher the spin speed, faster the drying time",
         ],
+        brand: "Samsung",
     },
     {
         imageFile: Phone2,
@@ -275,6 +291,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
             "Warranty: 4 years on product, 4 years on motor 800 rpm:",
             "Higher the spin speed, faster the drying time",
         ],
+        brand: "Redmi",
     },
     {
         imageFile: Phone3,
@@ -291,6 +308,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
             "Warranty: 4 years on product, 4 years on motor 800 rpm:",
             "Higher the spin speed, faster the drying time",
         ],
+        brand: "Samsung",
     },
     {
         imageFile: Phone4,
@@ -307,10 +325,11 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
             "Warranty: 4 years on product, 4 years on motor 800 rpm:",
             "Higher the spin speed, faster the drying time",
         ],
+        brand: "Samsung",
     },
     {
         imageFile: Phone1,
-        name: "Samsung Galaxy S10 Plus (Ceramic White, 1 TB)",
+        name: "Oneplus 10R(Ceramic White, 1 TB)",
         currentPrice: "₹25,534",
         originalPrice: "₹29,999",
         discount: "16% Off",
@@ -323,5 +342,6 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
             "Warranty: 4 years on product, 4 years on motor 800 rpm:",
             "Higher the spin speed, faster the drying time",
         ],
+        brand: "One plus",
     },
 ];

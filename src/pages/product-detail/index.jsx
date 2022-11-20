@@ -33,7 +33,7 @@ const ProductDetail = () => {
 
             <div className=' body-main'>
                 <div className='container'>
-                    <Breadcrumbs productName={productDetail.name} />
+                    <Breadcrumbs productDetail={productDetail} />
 
                     <div className='product-section'>
                         <div className='row'>
