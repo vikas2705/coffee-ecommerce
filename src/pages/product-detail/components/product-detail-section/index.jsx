@@ -17,43 +17,35 @@ const ProductDetailSection = props => {
         originalPrice = "",
         currentPrice = "",
         discount = "",
+        emi = "",
+        offer = "",
+        availableColors = [],
+        keyFeatures = [],
     } = productDetail;
+
     return (
         <div className='product-section-main'>
             <h1 className='product-title'>{name}</h1>
             <div className='key-features section-gap'>
                 <p className='features-heading mb-2'>Key Features</p>
                 <ul>
-                    <li>
-                        <img src={checkIcon} alt='check icon' />
-                        <span className='mx-2'>
-                            Capacity 6 kg :Suitable for bachelors & couples
-                        </span>
-                    </li>
-                    <li>
-                        <img src={checkIcon} alt='check icon' />
-                        <span className='mx-2'>
-                            Warranty: 4 years on product, 4 years on motor 800
-                            rpm:
-                        </span>
-                    </li>
-                    <li>
-                        <img src={checkIcon} alt='check icon' />
-                        <span className='mx-2'>
-                            Higher the spin speed, faster the drying time
-                        </span>
-                    </li>
+                    {keyFeatures.map(featureText => {
+                        return (
+                            <li>
+                                <img src={checkIcon} alt='check icon' />
+                                <span className='mx-2'>{featureText}</span>
+                            </li>
+                        );
+                    })}
                 </ul>
             </div>
 
             <div className='color-picker section-gap'>
                 <p className='color-heading'>Choose Color</p>
                 <div className='d-flex align-items-center justify-space-between'>
-                    <ColorPicker color='black' active />
-                    <ColorPicker color='white' />
-                    <ColorPicker color='grey' />
-                    <ColorPicker color='blue' />
-                    <ColorPicker color='silver' />
+                    {availableColors.map(color => {
+                        return <ColorPicker color={color} key={color} />;
+                    })}
                 </div>
             </div>
 
@@ -84,15 +76,14 @@ const ProductDetailSection = props => {
                 <div>
                     <img src={bankIcon} alt='bank icon' />
                     <span className='mx-3'>
-                        No cost EMI ₹1,750/month. Standard EMI also available.
-                        T&C
+                        No cost {emi}. Standard EMI also available. T&C
                     </span>
                 </div>
                 <div>
                     <OffersIcon color='black' height='16' width='16' />
                     <span className='mx-3'>
-                        Bank Offer 5% Unlimited Cashback on Flipkart Axis Bank
-                        Credit Card. T&C
+                        Bank Offer {offer} on Flipkart Axis Bank Credit Card.
+                        T&C
                     </span>
                 </div>
             </div>
